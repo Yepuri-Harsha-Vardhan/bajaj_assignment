@@ -39,7 +39,7 @@ function Home() {
       const stringifiedData = JSON.stringify({ data: parsedInput.data });
 
       const response = await axios.post(
-        "https://bajaj-assignment-kappa.vercel.app//bfhl",
+        "https://bajaj-assignment-kappa.vercel.app/bfhl",
         stringifiedData,
         { headers: { "Content-Type": "application/json" } }
       );
